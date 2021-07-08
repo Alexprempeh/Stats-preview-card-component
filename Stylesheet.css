@@ -1,0 +1,98 @@
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: hsl(233, 47%, 7%);
+    font-size: 14px;
+}
+.content {
+    width: 1000px;
+    margin: auto;
+    padding: 0;
+    margin-top: 30%;
+    font-family: 'Inter', sans-serif;
+}
+.even-columns {
+    display: flex;
+    
+    /* display: block; */
+    background: hsl(244, 38%, 16%);
+    border-radius: 10px;
+}
+.even-columns > * {  
+    flex-basis: 100%;
+    
+
+}
+img {
+    width: 100%;
+    display: block;
+    opacity: 0.4;
+    border-radius: 0px 10px 10px 0px;
+}
+.col1 {
+    margin-top: 2.5rem;
+}
+
+.col1 p, h1, table {
+    padding: 1.0rem;
+    width: 70%;
+    margin-left: 8%;
+    /* margin-top: 30px; */
+    color: white;
+}
+.col1 p {
+    width: 66%vw;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 1em;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    padding-inline-start: 20px;
+    writing-mode: horizontal-tb;
+    direction: ltr;
+}
+.col1 h1 {
+    font-weight: 700;
+    width: 80%;
+    font-size: 2.1rem;
+    letter-spacing: 0.5px;
+    padding-inline-start: 22px;
+    writing-mode: horizontal-tb;
+    direction: ltr;
+}
+span {
+    color: hsl(277, 64%, 61%);
+}
+
+.col2 {
+    background: hsl(281, 100%, 23%);
+    border-radius: 0px 10px 10px 0px;
+    filter: contrast(120%);
+    
+}
+
+table tbody {
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+}
+table thead {
+    
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: hsl(0, 0%, 100%);
+}
+table {
+    border-spacing: 2px;
+    width: 84%;
+}
+td {
+    padding: 2px;
+}
