@@ -14,8 +14,8 @@ body {
     width: 1000px;
     margin: auto;
     padding: 0;
-    margin-top: 50%;
-    margin-bottom: 50%;
+    margin-top: 200px;
+    margin-bottom: 200px;
     font-family: 'Inter', sans-serif;
 }
 .even-columns {
